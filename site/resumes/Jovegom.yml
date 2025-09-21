@@ -1,0 +1,132 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Johan
+    last_name: Vega 
+    
+    # Define yourself in 4-5 words
+    motto: Nunca te rindas
+    
+    # Focus
+    focus: Mi familia, mi motor
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Mi trayectoria laboral ha tenido altibajos que me han permitido aprender y crecer en cada empresa donde he estado. 
+      A lo largo de estas experiencias he adquirido habilidades valiosas, aunque en ocasiones he sentido que me han faltado 
+      las herramientas necesarias para desarrollarme plenamente y orientar mi carrera hacia lo que realmente me apasiona. 
+      Por ello, tengo grandes expectativas con el bootcamp que iniciaré en 4Geeks Academy, confiando en que me brindará los 
+      conocimientos y recursos para potenciar mi perfil profesional y alcanzar oportunidades más alineadas con mis objetivos.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/226757432?s=400&u=87f56afe2ce8854f2507c7d1d1229fca0de97b85&v=4
+
+    # Contact Information
+    email: johan.001997@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Jovegom
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Ingles
+        level: intermedio
+
+      
+
+    # Interests or hobbies
+    interests:
+      - item: Gimnasio
+
+      - item: Videojuegos
+
+      - item: Anime
+
+# Your previous education
+education:
+    - degree: Licenciatura en Economia
+      university: Universidad Pontificia Bolivariana    
+      time: 2015 - 2021
+      details: |
+        Analiza y toma posiciones de liderazgo con compromiso social frente a la realidad económica, 
+        incorporando consideraciones que impactan el conjunto de la sociedad, con énfasis en aspectos económicos y empresariales, 
+        sociales, políticos y ambientales.
+
+    - degree: Data scientist
+      university: 4Geeks Academy      
+      time: 2025 - presente
+      details: |
+        Profesional especializado en el análisis y modelado de datos para la toma de decisiones estratégicas. 
+        Con experiencia en la recolección, limpieza y transformación de datos, aplicación de métodos estadísticos
+        y técnicas de machine learning, así como en la generación de visualizaciones claras y efectivas
+
+# Your previous job experiences or volunteer
+experiences:
+
+    - role: Mozo de almacen.
+      time: 2025 - presente
+      company: Sfera - El Corte Ingles
+      details: |
+        - Recepción, descarga y verificación de mercancía según pedidos y albaranes.
+        - Clasificación, etiquetado y ubicación de prendas en el almacén siguiendo el sistema de organización establecido.
+        - Control de stock y apoyo en inventarios periódicos.
+       0- Preparación y reposición de productos en sala de ventas.
+        - Mantenimiento del orden y la limpieza en las áreas de almacenamiento.
+        - Apoyo en la gestión de devoluciones y cambios de mercancía.
+        - Coordinación con el equipo de ventas para asegurar la disponibilidad de los productos en tienda.
+
+
+    - role: Creador de experiencia senior 
+      time: 2020 - 2021
+      company: Emtelco
+      details: |
+       -	Atender y solucionar los requerimientos del cliente adaptándose a las diferentes situaciones que este pudiese presentar.
+       -	Cumplir con metas designadas de retención y fidelización.
+       -	Aclaración y explicación de facturación y conceptos claves de tarjetas de crédito.
+       -	Comunicación clara y afectiva que permitiese una adecuada relación entre cliente, producto y compañía.
+       -	Venta cruzada de diferentes campañas y productos brindados por la compañía.
+
+
+    - role: Auxiliar administrativo
+      time: 2019 - 2020
+      company: Pulpy-Frutty S.A.S
+      details: |
+        -	Archivar documentación y facturación de la empresa.
+        -	Realizar y exponer informes mensuales de ingresos y egresos mensuales de la compañía.
+        -	Gestión telefónica con proveedores para la recepción y la logística de la materia prima
+        -	Atención a los requerimientos y contratiempos en el proceso logístico con proveedores y clientes.
+
+
+    - role: Practicante del área de reabastecimiento.
+      time: 2018 - 2019
+      company: Grupo Éxito
+      details: |
+        -	Coordinar la reunión de colaboración con los proveedores Pareto de la compañía.
+        -	Generar desde el sistema de inteligencia de la compañía la información y las bases de datos 
+        para construir los indicadores del proceso colaborativo con los proveedores.
+        -	Generar reporte de evacuación de eventos y compartirlo con las áreas de operación y comercial.
+        -	Atender las solicitudes de generación de portafolio de las bases de datos de los proveedores.
+        -	Archivar informes de las reuniones de colaboración.
+
+
